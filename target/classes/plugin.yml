@@ -1,0 +1,17 @@
+author: Ahniolator
+database: false
+description: Players and other burnable objects will be burned by direct sunlight.
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: me.ahniolator.plugins.sunburn.Sunburn
+name: SunBurn
+startup: postworld
+version: '2.21'
+permissions:
+  sunburn.admin:
+    description: Give access to all SunBurn admin commands
+    default: op
+commands:
+  sunburn:
+    description: Shows the help dialog
+    usage: /<command> <help>
+      

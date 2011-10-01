@@ -1,0 +1,1 @@
+2.21;Fixed player/mob burning. Should work properly now
